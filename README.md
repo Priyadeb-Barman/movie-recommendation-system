@@ -1,4 +1,4 @@
-# 🎬 Movie Recommendation System using Machine Learning
+#  Movie Recommendation System using Machine Learning
 
 <div align="center">
 
@@ -16,7 +16,7 @@
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 
 - [Overview](#-overview)
 - [Features](#-features)
@@ -33,7 +33,7 @@
 
 ---
 
-## 🎯 Overview
+##  Overview
 
 This project is a **Content-Based Movie Recommendation System** that recommends movies similar to a user-selected movie title. It analyzes movie metadata (genres, keywords, cast, crew, and overview) to find patterns and suggest the top 5 most similar movies.
 
@@ -41,22 +41,22 @@ Built using the **TMDB 5000 Movies Dataset** from Kaggle, this application demon
 
 ---
 
-## ✨ Features
+##  Features
 
 | Feature | Description |
 |---------|-------------|
-| 🔍 **Smart Search** | Search/select from 4800+ movies with autocomplete |
-| 🎯 **Top 5 Recommendations** | Get 5 similar movies ranked by cosine similarity |
-| 🖼️ **Movie Posters** | Beautiful poster display via TMDB API integration |
-| 🧠 **ML-Powered** | Content-based filtering using CountVectorizer + Cosine Similarity |
-| 🎨 **Premium UI** | Dark-themed Streamlit interface with custom styling |
-| ⚡ **Fast Response** | Pre-computed similarity matrix for instant recommendations |
-| 🔧 **Auto Model Build** | Automatically builds the model on first run |
-| 📱 **Responsive** | Works on desktop and mobile browsers |
+|  **Smart Search** | Search/select from 4800+ movies with autocomplete |
+|  **Top 5 Recommendations** | Get 5 similar movies ranked by cosine similarity |
+|  **Movie Posters** | Beautiful poster display via TMDB API integration |
+|  **ML-Powered** | Content-based filtering using CountVectorizer + Cosine Similarity |
+|  **Premium UI** | Dark-themed Streamlit interface with custom styling |
+|  **Fast Response** | Pre-computed similarity matrix for instant recommendations |
+|  **Auto Model Build** | Automatically builds the model on first run |
+|  **Responsive** | Works on desktop and mobile browsers |
 
 ---
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 | Technology | Purpose |
 |-----------|---------|
@@ -71,7 +71,7 @@ Built using the **TMDB 5000 Movies Dataset** from Kaggle, this application demon
 
 ---
 
-## 🧠 How It Works
+##  How It Works
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
@@ -111,7 +111,7 @@ Built using the **TMDB 5000 Movies Dataset** from Kaggle, this application demon
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Prerequisites
 
@@ -161,7 +161,7 @@ TMDB_API_KEY = "your_api_key_here"
 
 ---
 
-## 💡 Usage
+##  Usage
 
 1. **Open the app** in your browser (usually `http://localhost:8501`)
 2. **Search for a movie** using the dropdown/search box
@@ -170,46 +170,46 @@ TMDB_API_KEY = "your_api_key_here"
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 movie-recommendation-system/
 │
-├── app.py                          # 🎨 Streamlit web application
-├── poster_api.py                   # 🖼️ TMDB poster fetching module
-├── setup.py                        # 🔧 Data preprocessing & model builder
-├── requirements.txt                # 📦 Python dependencies
-├── README.md                       # 📖 Project documentation
-├── .gitignore                      # 🚫 Git ignore rules
+├── app.py                          #  Streamlit web application
+├── poster_api.py                   #  TMDB poster fetching module
+├── setup.py                        #  Data preprocessing & model builder
+├── requirements.txt                #  Python dependencies
+├── README.md                       #  Project documentation
+├── .gitignore                      #  Git ignore rules
 │
 ├── .streamlit/
-│   └── config.toml                 # 🎨 Streamlit theme configuration
+│   └── config.toml                 #  Streamlit theme configuration
 │
 ├── data/
-│   ├── tmdb_5000_movies.csv        # 📊 Movies dataset (from Kaggle)
-│   └── tmdb_5000_credits.csv       # 📊 Credits dataset (from Kaggle)
+│   ├── tmdb_5000_movies.csv        #  Movies dataset (from Kaggle)
+│   └── tmdb_5000_credits.csv       #  Credits dataset (from Kaggle)
 │
 ├── models/
-│   ├── movie_dict.pkl              # 💾 Processed movie data
-│   └── similarity.pkl              # 💾 Cosine similarity matrix
+│   ├── movie_dict.pkl              #  Processed movie data
+│   └── similarity.pkl              #  Cosine similarity matrix
 │
 ├── notebooks/
-│   └── movie_recommender.py        # 📓 Data exploration script
+│   └── movie_recommender.py        #  Data exploration script
 │
 ├── docs/
-│   ├── INTERVIEW_QA.md             # 🎤 Interview questions & answers
-│   ├── ARCHITECTURE.md             # 🏗️ System architecture
-│   ├── DEPLOYMENT.md               # 🚀 Deployment guide
-│   └── RESUME_DESCRIPTION.md       # 📝 Resume-ready descriptions
+│   ├── INTERVIEW_QA.md             #  Interview questions & answers
+│   ├── ARCHITECTURE.md             #  System architecture
+│   ├── DEPLOYMENT.md               #  Deployment guide
+│   └── RESUME_DESCRIPTION.md       #  Resume-ready descriptions
 │
-├── screenshots/                    # 📸 UI screenshots
+├── screenshots/                    #  UI screenshots
 └── utils/
-    └── __init__.py                 # 🔧 Utility functions
+    └── __init__.py                 #  Utility functions
 ```
 
 ---
 
-## 📸 Screenshots
+##  Screenshots
 
 > **Note:** Add screenshots of your running application here.
 
@@ -225,7 +225,7 @@ To take screenshots:
 
 ---
 
-## 🚀 Deployment
+##  Deployment
 
 ### Streamlit Community Cloud (Recommended)
 
@@ -240,7 +240,7 @@ For detailed instructions, see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 ---
 
-## 🔮 Future Scope
+##  Future Scope
 
 - [ ] **Collaborative Filtering** — Add user-based recommendations using Matrix Factorization
 - [ ] **Hybrid Model** — Combine content-based and collaborative filtering
@@ -254,7 +254,7 @@ For detailed instructions, see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 ---
 
-## 📚 Documentation
+##  Documentation
 
 | Document | Description |
 |----------|-------------|
@@ -265,9 +265,9 @@ For detailed instructions, see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 ---
 
-## 👤 Author
+##  Author
 
-**Your Name**
+**Priyadeb Barman**
 
 - GitHub: [@yourusername](https://github.com/yourusername)
 - LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
@@ -275,13 +275,13 @@ For detailed instructions, see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 ---
 
-## 📄 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🙏 Acknowledgments
+##  Acknowledgments
 
 - **Dataset**: [TMDB 5000 Movies Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata) by Kaggle
 - **Poster API**: [The Movie Database (TMDB)](https://www.themoviedb.org/)
@@ -292,6 +292,6 @@ This project is open source and available under the [MIT License](LICENSE).
 
 <div align="center">
 
-⭐ **Star this repository if you found it helpful!** ⭐
+ **Star this repository if you found it helpful!** 
 
 </div>
