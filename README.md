@@ -269,9 +269,9 @@ For detailed instructions, see [docs/DEPLOYMENT.md](docs/DEPLOYMENT.md).
 
 **Priyadeb Barman**
 
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+- GitHub: [@Priyadeb-Barman](https://github.com/yourusername)
+- LinkedIn: [Priyadeb Barman](linkedin.com/in/priyadeb-barman-6893a72a8)
+- Email: mr.priyadeb@gmail.com
 
 ---
 
